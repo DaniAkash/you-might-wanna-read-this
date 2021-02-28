@@ -71,7 +71,7 @@ class EmojiBackground {
         ys: Math.random() + 1,
         height: scale * this.emojiHeight,
         width: scale * this.emojiWidth,
-        opacity: scale,
+        opacity: scale * 0.5,
         src: emojiImages[Math.floor(Math.random() * emojiImages.length)]
       });
     }
